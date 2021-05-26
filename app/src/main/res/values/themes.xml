@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.UserPanel" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/material_green_500</item>
+        <item name="colorPrimaryDark">@color/material_green_300</item>
+        <item name="colorAccent">@color/material_green_100</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style
+        name="CollapsedAppbar"
+        parent="android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/material_white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">24sp</item>
+
+    </style>
+
+    <style
+        name="ExpandedAppbar"
+        parent="android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">@color/material_black</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+</resources>
